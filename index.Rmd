@@ -35,13 +35,13 @@ knitr::include_graphics("Figures/A cerca cartoon.jpeg")
 # Unidades de conservação (UCs) 
 --
 
-Uma forma de proteção da biodiversidade e serviços ecossistêmicos;
+Uma forma de proteção da biodiversidade e serviços ecossistêmicos
 
 --
 
 Meta da **Convenção da Biodiversidade (CDB)** para 2030: 
-- = 30% da superficie terrestre e marinha<sup>1</sup>;
-- Atualmente ~270 mil UCs no Mundo<sup>1</sup>
+- = 30% da superficie terrestre e marinha<sup>1</sup>
+- Atualmente aprox. 270 mil UCs no Mundo<sup>1</sup>
 - 1551 UCs na Mata Atlântica<sup>2</sup>
 
 <font size="1"> 
@@ -59,8 +59,8 @@ Meta da **Convenção da Biodiversidade (CDB)** para 2030:
 # Unidades de conservação (UCs) 
 
 Meta da **Convenção da Biodiversidade (CDB)** para 2030: 
-- = 30% da superficie terrestre e marinha<sup>1</sup>;
-- Atualmente ~270 mil UCs no Mundo
+- = 30% da superficie terrestre e marinha<sup>1</sup>
+- Atualmente aprox. 270 mil UCs no Mundo<sup>1</sup>
 - 1551 UCs na Mata Atlântica<sup>2</sup>
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, fig.height=4, dev='svg'}
@@ -119,11 +119,11 @@ DadosUCs%>%
 
 --
 
-- Eficiência é difícil de ser mensuarada;
+- Eficiência é difícil de ser mensuarada
 
 --
 
-  - Falta de padronização;
+  - Falta de padronização
 
 --
 
@@ -163,15 +163,19 @@ knitr::include_graphics("Figures/databases INMA.png")
 
 ---
 
-### **Dados disponíveis: Visão geral**: "Plano de manejo gera um viés nos inventários da biodiversidade?" 
+### **Dados disponíveis: visão geral**: 
 
 --
 
 - 863 de 1551 UCs na Mata Atlântica
+
 - 32% UCs com plano de manejo
+
 - 10,407 registros de espécies ameaçadas
+
 - 1,395 espécies 
-- 33% UCs com registros de espécies ameaçadas **(flora)**
+
+- 33% UCs com registros de espécies ameaçadas 
 
 ---
 
@@ -209,11 +213,21 @@ knitr::include_graphics("Figures/Figure3_edited.svg")
 
 ---
 
+### **Resultado 3:** Mas o que determina a presença do plano de manejo?
+
+- Aparentemente apenas a idade de criação da UC parece determinar a presença do plano de manejo.
+
+```{r, echo=FALSE, out.width="80%", fig.align = 'center', fig.cap=""}
+knitr::include_graphics("Figures/Figure3b.svg")
+```
+
+---
+
 ## Plano de manejo gera um viés nos inventários da biodiversidade? Possíveis causas:
 
 --
 
-- Planos de manejo são muitas vezes dependentes de dados secuntários.
+- Planos de manejo são muitas vezes dependentes de dados secundarios.
 
 - Pesquisadores e tomadores de decisão tendem a priorizar o que sabem que é importante
  - Inclusive para conseguir financiamento de pesquisa.
@@ -238,9 +252,9 @@ knitr::include_graphics("Figures/Divulgacao - MEME.png")
 
 --
 
-- UCs com plano de manejo tem maior número de espécies ameaçadas;
+- UCs com plano de manejo têm maior número de espécies ameaçadas;
 
-- A presença do plano de manejo é um importante preditor do número de espécies ameaçadas conhecidas;
+ - A presença do plano de manejo é um importante preditor do número de espécies ameaçadas conhecidas;
 
 - Plano de manejo parecem estar sendo orientados pela lista de espécies ameaçadas. 
 
