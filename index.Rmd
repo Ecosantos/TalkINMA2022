@@ -332,7 +332,7 @@ count: false
 ```{r eval=FALSE, include=FALSE}
 #EXPORTA A APRESENTAÇÃO PARA O FORMATO PDF
 #Rodar separamente este comando
-pagedown::chrome_print("2022-Seminario-INMA.html")
+pagedown::chrome_print("index.html")
 ```  
   
   
